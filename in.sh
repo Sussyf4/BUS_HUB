@@ -22,6 +22,6 @@ proot-distro login ubuntu -- bash -c '
 echo "==> Downloading AGENTS.md and starting OpenCode"
 proot-distro login ubuntu -- bash -c '
   cd /root &&
-  curl -fL "https://raw.githubusercontent.com/togg53192-cmd/jailbreaks/refs/heads/main/deepseek-4-1.md" -o AGENTS.md &&
+  curl -fL "https://raw.githubusercontent.com/togg53192-cmd/jailbreaks/refs/heads/main/DeepSeek/deepseekv4.1%20and%20v4.1-1017.md" -o AGENTS.md &&
   opencode
 '
